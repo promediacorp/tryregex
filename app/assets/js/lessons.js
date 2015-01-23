@@ -113,7 +113,7 @@ define(['jquery', 'console', 'evaluate', 'globalFuncs'], function ($, regexConso
 			return (output && output[0] === '(also regex or regexp)');
 		},
 
-		lesson11Solution: 'bracketNumbers.match(/\\(.{5,8}\\)/)',
+		lesson11Solution: 'bracketNumbers.match(/\(.{5,8}\)/)',
 		lesson11: function (input, output) {
 			if (contains(input, '34')) {
 				return false;
